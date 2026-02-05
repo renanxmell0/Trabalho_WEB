@@ -55,7 +55,7 @@ O foco não é a funcionalidade completa de um e-commerce, mas sim a **aplicaç�
 
 Projeto desenvolvido por **Renan Mello e Gabriel Tardin** 
 
-Aluno do curso de **S**istemas de informação**
+Aluno do curso de **Sistemas de informação**
 
 ## 📄 Licença
 
