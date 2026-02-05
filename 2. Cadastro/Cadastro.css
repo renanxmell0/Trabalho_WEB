@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #0B0F1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cadastro-caixa {
+  background-color: #1a1f2e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 350px;
+}
+
+.titulo {
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.cadastro-form label {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.cadastro-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0 1rem 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #2a2f45;
+  color: #fff;
+}
+
+.cadastro-form input:focus {
+  outline: 2px solid #5c9eff;
+}
+
+.botao-link {
+  display: inline-block;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #5c9eff;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.botao-link:hover {
+  background-color: #3a7fdc;
+  color: #fff;
+}
+
+.login-link {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.login-link a {
+  color: #5c9eff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

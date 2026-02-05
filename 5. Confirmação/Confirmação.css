@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e121f;
+    color: #ddd;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.confirm-caixa {
+    background-color: #1a1f32;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.8);
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.botao-voltar {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5995ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: background-color 0.25s ease;
+}
+
+.botao-voltar:hover {
+    background-color: #417ee6;
+}

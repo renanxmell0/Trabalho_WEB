@@ -1,0 +1,225 @@
+body {
+  background-color: #0f1626;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.topo-site {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1c2333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu-navegacao {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.menu-navegacao ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.menu-navegacao ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: #1c2333;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-size: 0.95rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu-navegacao ul li a:hover {
+  background-color: #5c9eff;
+  color: black;
+}
+
+.info-site h1 {
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.info-site p {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 6px 10px;
+  background-color: rgba(28, 35, 51, 0.8);
+  border-radius: 8px;
+}
+
+.usuario img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #1c2333;
+}
+
+.link-usuario {
+  color: #5c9eff;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.link-usuario:hover {
+  text-decoration: underline;
+  color: #5c9eff;
+}
+
+.usuario p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  line-height: 1;
+}
+
+section {
+  padding: 30px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.jogo {
+  display: flex;
+  background-color: #1c2333;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  align-items: flex-start;
+}
+
+.jogo .imagem-jogo {
+  flex: 1;
+  max-width: 250px;
+  margin-right: 20px;
+}
+
+.jogo .imagem-jogo img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
+.jogo .info-jogo {
+  flex: 2;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.jogo .info-jogo p {
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.botao-comprar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5c9eff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.botao-comprar:hover {
+  background-color: #3a7bd5;
+}
+
+.info-jogo .area-botao-classificacao {
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  margin-top: 10px;
+}
+
+.classificacao-indicativa img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+.rodape {
+  background-color: #1c2333;
+  color: white;
+  padding: 30px 20px;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.rodape-conteudo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rodape h3 {
+  color: #5c9eff;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.rodape p,
+.rodape a,
+.rodape li {
+  color: #ccc;
+  font-size: 0.95rem;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.rodape a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.rodape ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.direitos {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  margin-bottom: 8px;
+}

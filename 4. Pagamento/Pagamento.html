@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyGames - Pagamento</title>
+    <link rel="stylesheet" href="Pagamento.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pag-caixa">
+        <form class="pag-form">
+            <h2>Finalizar Compra</h2>
+
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="inome" name="nnome" placeholder="Digite seu nome" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="icpf" name="ncpf" placeholder="Digite seu CPF" maxlength="11">
+
+            <div class="pag-metodos">
+                <label>Formas de pagamento:</label>
+                <div class="pag-opçoes">
+                    <input type="radio" id="cartao" name="pagamento" value="cartao">
+                    <label for="cartao">Cartão</label>
+
+                    <input type="radio" id="pix" name="pagamento" value="pix">
+                    <label for="pix">PIX</label>
+
+                    <input type="radio" id="paypal" name="pagamento" value="paypal">
+                    <label for="paypal">PayPal</label>
+                </div>
+            </div>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="isenha" name="nsenha" placeholder="Digite sua senha" required>
+
+            <a href="/5. Confirmação/Confirmação.html" class="botao-link">Fazer pedido</a>
+            <a href="/3. Área_Jogos/Área_Jogos.html" class="voltar-link">Voltar</a>
+        </form>
+    </div>
+</body>
+</html>
